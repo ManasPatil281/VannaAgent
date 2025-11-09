@@ -1,14 +1,12 @@
-# Core Vanna Framework
-vanna
+# Core Vanna Framework with integrations
+vanna[postgres]
+vanna[pinecone]
+vanna[google]
 
-# LLM Integration
+# Additional dependencies that might not be included
 google-generativeai
-
-# Database Integration
 psycopg2-binary
 sqlalchemy
-
-# Vector Database for Agent Memory
 pinecone
 
 # FastAPI Server
