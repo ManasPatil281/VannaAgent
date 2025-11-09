@@ -1,0 +1,25 @@
+# Core Vanna Framework
+vanna
+
+# LLM Integration
+google-generativeai
+
+# Database Integration
+psycopg2-binary
+sqlalchemy
+
+# Vector Database for Agent Memory
+pinecone
+
+# FastAPI Server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Additional Dependencies
+pydantic
+requests
+python-dotenv
+
+# Optional but recommended for production
+gunicorn
