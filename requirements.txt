@@ -2,6 +2,8 @@
 vanna[postgres]
 vanna[pinecone]
 vanna[google]
+vanna[all]
+vanna[fastapi,gemini,postgres] @ git+https://github.com/vanna-ai/vanna.git@v2
 
 # Additional dependencies that might not be included
 google-generativeai
